@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="brilho" cx="50%" cy="50%" r="50%">
+      <stop offset="0.36" stop-color="#ffd59a" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#ff9a4d" stop-opacity="0.55"/>
+      <stop offset="0.75" stop-color="#ff6a2b" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ff6a2b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="disco" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffe7c2"/><stop offset="0.5" stop-color="#ffae5c"/><stop offset="1" stop-color="#f26b3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#050403"/>
+  <circle cx="256" cy="256" r="210" fill="url(#brilho)"/>
+  <ellipse cx="256" cy="262" rx="200" ry="46" fill="none" stroke="url(#disco)" stroke-width="18" opacity="0.9"/>
+  <circle cx="256" cy="256" r="96" fill="#000"/>
+  <circle cx="256" cy="256" r="100" fill="none" stroke="#ffd6a3" stroke-width="5"/>
+  <path d="M60 268 Q256 330 452 268" fill="none" stroke="url(#disco)" stroke-width="14" opacity="0.95"/>
+</svg>
